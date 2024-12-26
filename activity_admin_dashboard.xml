@@ -1,0 +1,65 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboardActivity">
+
+    <!-- Linear Layout to hold the content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Title for the Admin Dashboard -->
+        <TextView
+            android:id="@+id/tv_admin_dashboard_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold" />
+
+        <!-- Manage Movies Button -->
+        <Button
+            android:id="@+id/btn_manage_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Movies"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Manage Theaters Button -->
+        <Button
+            android:id="@+id/btn_manage_theaters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Theaters"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Manage Showtimes Button -->
+        <Button
+            android:id="@+id/btn_manage_showtimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Showtimes"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Go to Movie List Button (Black background, White text) -->
+        <Button
+            android:id="@+id/goToMovieListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Movie List"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

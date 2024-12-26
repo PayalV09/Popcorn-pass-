@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/popup_background">
+    <!-- E-Ticket Heading -->
+
+    <TextView
+        android:id="@+id/tv_e_ticket_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#C4908F8F"
+        android:text="E-Ticket"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_popup_movie_title"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_popup_theater_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D3D3D3"
+        android:text="Theater: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_popup_showtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Showtime: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_popup_selected_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Selected Seats: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_popup_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Total Price: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_popup_total_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Total Seats: "
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_close_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"/>
+</LinearLayout>
