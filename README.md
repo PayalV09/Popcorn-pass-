@@ -3,18 +3,18 @@ Movie Ticket Booking App
 PopcornPass 🎬🍿
 PopcornPass is an Android application that simplifies the process of booking movie tickets. With features like browsing movies, selecting theaters, choosing seats, and secure payments, it provides a seamless and enjoyable user experience. 
 
-Features-
+*Features-
 ---------------User Authentication: Login and Sign-Up functionality.
 ---------------Movie Listing: Browse and filter movies by genre, language, and ratings.Choose from a list of movies.
 ---------------Theater Selection: Choose from a list of theater.
 ---------------Seat Booking: Interactive seat selection feature.
 ---------------Payment Options: Payment methods (e.g.cash on delivery).
 ---------------Admin Dashboard: Manage Movies theaters and Showtimes.
-Tech Stack
+*Tech Stack
 ---------------Frontend: Java, XML (Android UI).
 ---------------Backend: SQLite for local theater and movie data.
 ---------------Tools: Android Studio.
-Project Structure -
+*Project Structure -
 ---------------AndroidManifest.xml
 ---------------adapters - 1. AdminPagerAdapter 2. DateTimeAdapter  3.MovieAdapter 4.SeatAdapter 5.ShowtimesAdapter 6.TheaterAdapter
 ---------------adapter2 (Manage admin activities) - 1.ManageTheaterAdapter 2.MoviesAdapter 
@@ -31,7 +31,7 @@ Project Structure -
                        (admin xml)- activity_manage_movies.xml, activity_manage_showtimes.xml, activity_manage_theater.xml
 --------------Values- strings.xml, styles.xml, colors.xml, ids.xml
 --------------Themes- themes.xml , themes.xml(night)
-example of structure in adnroid studio- 
+*example of structure in adnroid studio- 
 PopcornPass/
 ├── app/
 │   ├── src/
@@ -58,7 +58,7 @@ PopcornPass/
 └── ...
 
 
-Installation Guide
+*Installation Guide
 1.Clone the repository:
 git clone https://github.com/yourusername/popcornpass.git
 2.Open the project in Android Studio.
@@ -68,7 +68,7 @@ git clone https://github.com/yourusername/popcornpass.git
 
 
 
-How to Use
+*How to Use
 -Launch the app and sign up or log in.
 -Browse through the movie listings.
 -Select a movie to view details and available theaters.
@@ -76,7 +76,7 @@ How to Use
 -Complete the booking by making a secure payment.
 
 
-Screenshots -  UI/UX of App  
+*Screenshots -  UI/UX of App  
 
 
 
@@ -86,7 +86,7 @@ Screenshots -  UI/UX of App
 
 
 
-Future Enhancements
+*Future Enhancements
 -Add more payment gateways.
 -Enable push notifications for booking confirmations and reminders.
 -Integrate user reviews and ratings for movies.
