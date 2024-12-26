@@ -1,0 +1,13 @@
+<resources>
+    <!-- Custom style for AlertDialog -->
+    <style name="CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Set background color for the dialog -->
+        <item name="android:background">#000000</item> <!-- Light gray background -->
+
+        <!-- Customize title text color -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Customize button text color -->
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+    </style>
+</resources>

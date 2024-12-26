@@ -1,0 +1,33 @@
+<resources>
+
+    <string-array name="payment_methods">
+        <item>Cash on Delivery</item>
+
+    </string-array>
+
+    <string-array name="booking_ids">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+    </string-array>
+
+
+    <string name="app_name">Popcorn Pass</string>
+    <string name="app_logo_description">App Logo</string>
+    <string name="showtime_placeholder">Showtime: %1$s</string>
+    <string name="database_error">An error occurred while accessing the database. Please try again later.</string>
+    <string name="booking_successful">Booking Successful!</string>
+
+    <string name="select_at_least_one_seat">Please select at least one seat.</string>
+    <string name="booking_success">Seats booked successfully!</string>
+    <string name="booking_failed">Seats Booking Failed</string>
+
+    <string name="welcome_description">Welcome to Popcorn Pass</string>
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
