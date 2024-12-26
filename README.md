@@ -60,7 +60,7 @@ PopcornPass/
 
 *Installation Guide
 1.Clone the repository:
-git clone -   (https://github.com/PayalV09/Popcorn-pass-).git
+git clone -  [ (https://github.com/PayalV09/Popcorn-pass-).git](https://github.com/PayalV09/Popcorn-pass-.git)
 2.Open the project in Android Studio.
 3.Sync the project with Gradle files.
 4.Connect to Firebase for database integration.
