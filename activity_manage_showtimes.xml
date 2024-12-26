@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f3f3f3">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Movie Showtimes"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold" />
+
+    <!-- Movie Spinner -->
+    <TextView
+        android:id="@+id/movie_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Movie"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/movie_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+    android:background="@drawable/spinner_bg"
+    android:padding="10dp"
+    android:importantForAccessibility="yes"
+    android:contentDescription="Select Movie" />
+
+    <!-- Theater Spinner -->
+    <TextView
+        android:id="@+id/theater_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Theater"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/theater_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+    android:background="@drawable/spinner_bg"
+    android:padding="10dp"
+    android:importantForAccessibility="yes"
+    android:contentDescription="Select Theater" />
+
+    <!-- Time Picker -->
+    <TextView
+        android:id="@+id/showtime_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Showtime"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/selected_movie_theater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Movie and Theater will appear here"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Use regular TimePicker widget -->
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:timePickerMode="spinner" />
+
+    <!-- Add Showtime Button -->
+    <Button
+        android:id="@+id/add_showtime_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Showtime"
+        android:textColor="#ffffff"
+        android:background="#6200EE"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+</LinearLayout>

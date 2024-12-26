@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/movieTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie: Not Available"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Theater Name -->
+        <TextView
+            android:id="@+id/theaterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theater: Not Available"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Showtime -->
+        <TextView
+            android:id="@+id/showtimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Showtime: Not Selected"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Selected Seats -->
+        <TextView
+            android:id="@+id/selectedSeatsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Seats: None"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Total Seats -->
+        <TextView
+            android:id="@+id/totalSeatsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seats: 0"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Total Price -->
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price: ₹0.00"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Payment Method Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Payment Method:"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/paymentMethodSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+        android:spinnerMode="dropdown"
+        android:padding="12dp" />
+
+
+        <!-- Payment Date TextView -->
+        <TextView
+            android:id="@+id/paymentDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Date: Not Selected"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <!-- Select Payment Date Button -->
+        <Button
+            android:id="@+id/selectPaymentDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Payment Date"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Proceed to Payment Button -->
+        <Button
+            android:id="@+id/proceedPaymentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Payment"
+            android:textSize="16sp"
+            android:backgroundTint="#0F0E0E"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <!-- Centered Logo Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="2500dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_logo"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Welcome Title Text -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Popcornpass"
+        android:textAlignment="center"
+        android:textColor="#05000E"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="5sp"
+        android:text="Book Your Favorite Movie Tickets, Capture Memories, and Join the Fun!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#6B6A6A"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="35dp" />
+
+</LinearLayout>

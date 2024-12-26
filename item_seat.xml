@@ -1,0 +1,30 @@
+<!-- item_seat.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="4dp">
+
+    <!-- Seat Image -->
+    <ImageView
+        android:id="@+id/imageViewSeat"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/chair_image"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Seat Number Text -->
+    <TextView
+        android:id="@+id/textViewSeatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:gravity="center" />
+
+</LinearLayout>

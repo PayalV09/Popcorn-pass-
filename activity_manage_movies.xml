@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Movie ID EditText (For Update/Delete) -->
+        <EditText
+            android:id="@+id/movieId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie ID (For Update/Delete)"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Movie Name EditText -->
+        <EditText
+            android:id="@+id/movieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Name"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Genre EditText -->
+        <EditText
+            android:id="@+id/movieGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Genre"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Language EditText -->
+        <EditText
+            android:id="@+id/movieLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Language"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Actors EditText -->
+        <EditText
+            android:id="@+id/movieActor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Actors"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Crew EditText -->
+        <EditText
+            android:id="@+id/movieCrew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Crew"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Ratings EditText -->
+        <EditText
+            android:id="@+id/movieRatings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ratings (e.g., 4.5)"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Add Movie Button -->
+        <Button
+            android:id="@+id/addMovieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Movie"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Update Movie Button -->
+        <Button
+            android:id="@+id/updateMovieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Movie"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Delete Movie Button -->
+        <Button
+            android:id="@+id/deleteMovieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Movie"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- ListView for displaying movies -->
+        <ListView
+            android:id="@+id/movieListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
